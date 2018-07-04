@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+  box-shadow: rgb(15, 15, 15) 0px -1px 0px 0px inset;
+  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out
+}
+
+a:hover {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+}
+
+.emphasized-link { font-style: italic; }
+
+.main {
+  max-width: 565px;
+  margin: 200px auto 0 auto;
+  padding: 20px;
+}
+
+@media screen and ( max-width: 500px ) {
+  .main {
+    margin: 40px auto 0 auto;
+  }
+}
+
+.article-list {
+  list-style: none;
+  line-height: 2.0;
+  margin: 0;
+  padding: 0;
+}
